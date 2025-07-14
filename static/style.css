@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#status {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+#hand {
+  margin-top: 10px;
+}
+
+.card {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.card.selected {
+  background: #def;
+}
+
+.hex {
+  stroke: #555;
+  fill: #ddd;
+  cursor: pointer;
+}
+.hex.owned-bottom {
+  fill: #8fd;
+}
+.hex.owned-top {
+  fill: #f88;
+}
+.hex.contested {
+  fill: #fdb;
+}

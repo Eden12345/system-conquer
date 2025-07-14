@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hex‑Deck Prototype</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="lobby">
+      <button id="btn-create">Create Game</button>
+    </div>
+    <div id="game" style="display: none">
+      <div id="status">
+        <span id="turn">Turn: –</span>
+        <span id="actions">Actions: –</span>
+        <span id="bases">Bases: –</span>
+      </div>
+      <svg id="board" width="600" height="600"></svg>
+      <div id="hand"></div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
