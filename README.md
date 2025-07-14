@@ -40,26 +40,7 @@ A multiplayer, turn-based strategy game with deck-building elements built with a
 
 - **Forfeiture**: If a player disconnects after the game has started, they forfeit and the opponent immediately wins.
 
-## Project Structure
-
-```plaintext
-hex-deck-proto/
-├── server/                # Python backend
-│   ├── main.py            # FastAPI entrypoint
-│   ├── api.py             # HTTP & WebSocket routes
-│   ├── game_manager.py    # Global game registry
-│   ├── game_state.py      # Core game logic & state
-│   ├── models.py          # Card & player models
-│   ├── utils.py           # Helper functions
-│   └── constants.py       # Card definitions & costs
-├── requirements.txt       # Python dependencies
-└── static/                # Frontend assets
-    ├── index.html         # HTML + SVG board & UI
-    ├── style.css          # Basic styling
-    └── game.js            # Canvas rendering & WS client logic
-```
-
-## Setup & Run
+## Project Setup
 
 ### Prerequisites
 
