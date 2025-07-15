@@ -75,7 +75,7 @@ A multiplayer, turn-based strategy game with deck-building elements built with a
 Start the FastAPI backend with Uvicorn:
 
 ```bash
-uvicorn server.main:app --reload
+uvicorn main:app --reload
 ```
 
 - The server listens on `http://127.0.0.1:8000/` by default.
